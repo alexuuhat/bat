@@ -44,7 +44,7 @@ choice /n /c YN /m "Would you like to visit my Page [Y,N]?"
  echo. 
  set /a i+=1 
  goto server)
-explorer "http://github.io/alexuuhat"
+explorer "http://github.com/alexuuhat"
 goto halt
 :notsupported
 echo.
